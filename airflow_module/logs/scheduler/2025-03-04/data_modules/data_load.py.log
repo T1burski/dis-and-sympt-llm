@@ -1,0 +1,992 @@
+[2025-03-04T14:59:05.084+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T14:59:05.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T14:59:05.127+0000] {logging_mixin.py:190} INFO - [2025-03-04T14:59:05.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T14:59:14.485+0000] {logging_mixin.py:190} INFO - [2025-03-04T14:59:14.476+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T14:59:14.488+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T14:59:14.540+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 9.511 seconds
+[2025-03-04T14:59:45.387+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T14:59:45.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T14:59:45.417+0000] {logging_mixin.py:190} INFO - [2025-03-04T14:59:45.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T14:59:48.175+0000] {logging_mixin.py:190} INFO - [2025-03-04T14:59:48.167+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T14:59:48.180+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T14:59:48.214+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 2.877 seconds
+[2025-03-04T15:00:19.127+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:00:19.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:00:19.148+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:00:19.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:00:21.794+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:00:21.785+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:00:21.800+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:00:21.858+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 2.741 seconds
+[2025-03-04T15:06:47.054+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:06:47.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:06:47.063+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:06:47.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:06:52.884+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:06:52.869+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:06:52.888+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:06:52.925+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 5.899 seconds
+[2025-03-04T15:07:23.638+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:07:23.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:07:23.649+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:07:23.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:07:25.713+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:07:25.701+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:07:25.718+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:07:25.770+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 2.157 seconds
+[2025-03-04T15:07:56.102+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:07:56.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:07:56.121+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:07:56.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:07:57.264+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:07:57.256+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:07:57.267+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:07:57.312+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.219 seconds
+[2025-03-04T15:08:27.706+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:08:27.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:08:27.715+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:08:27.715+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:08:28.555+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:08:28.549+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:08:28.557+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:08:28.579+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.881 seconds
+[2025-03-04T15:08:59.207+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:08:59.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:08:59.213+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:08:59.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:09:00.244+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:09:00.237+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:09:00.247+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:09:00.275+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.077 seconds
+[2025-03-04T15:09:30.778+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:09:30.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:09:30.784+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:09:30.783+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:09:31.633+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:09:31.627+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:09:31.636+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:09:31.661+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.893 seconds
+[2025-03-04T15:10:02.294+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:10:02.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:10:02.305+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:10:02.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:10:04.446+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:10:04.434+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:10:04.449+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:10:04.479+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 2.192 seconds
+[2025-03-04T15:10:34.878+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:10:34.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:10:34.884+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:10:34.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:10:35.867+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:10:35.860+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:10:35.870+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:10:35.894+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.023 seconds
+[2025-03-04T15:11:06.437+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:11:06.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:11:06.447+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:11:06.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:11:07.507+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:11:07.499+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:11:07.510+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:11:07.539+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.111 seconds
+[2025-03-04T15:11:37.994+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:11:37.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:11:38.000+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:11:37.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:11:38.860+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:11:38.853+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:11:38.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:11:38.887+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.902 seconds
+[2025-03-04T15:12:09.590+0000] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:12:09.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:12:09.605+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:12:09.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:12:10.681+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:12:10.674+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:12:10.683+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:12:10.711+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.128 seconds
+[2025-03-04T15:12:41.264+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:12:41.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:12:41.276+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:12:41.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:12:42.884+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:12:42.870+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:12:42.887+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:12:42.915+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.666 seconds
+[2025-03-04T15:13:13.547+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:13:13.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:13:13.558+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:13:13.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:13:15.046+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:13:15.031+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:13:15.049+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:13:15.101+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.569 seconds
+[2025-03-04T15:13:45.844+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:13:45.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:13:45.851+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:13:45.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:13:46.811+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:13:46.803+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:13:46.814+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:13:46.842+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.010 seconds
+[2025-03-04T15:14:17.302+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:14:17.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:14:17.312+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:14:17.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:14:19.010+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:14:19.002+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:14:19.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:14:19.041+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.752 seconds
+[2025-03-04T15:16:35.307+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:16:35.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:16:35.350+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:16:35.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:16:39.905+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:16:39.890+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:16:39.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:16:39.994+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 4.741 seconds
+[2025-03-04T15:17:10.365+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:17:10.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:17:10.371+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:17:10.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:17:12.013+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:17:12.005+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:17:12.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:17:12.058+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.722 seconds
+[2025-03-04T15:17:42.548+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:17:42.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:17:42.554+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:17:42.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:17:43.481+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:17:43.474+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:17:43.483+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:17:43.511+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.969 seconds
+[2025-03-04T15:18:14.105+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:18:14.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:18:14.111+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:18:14.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:18:15.159+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:18:15.152+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:18:15.162+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:18:15.192+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.099 seconds
+[2025-03-04T15:18:45.568+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:18:45.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:18:45.576+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:18:45.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:18:46.648+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:18:46.639+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:18:46.652+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:18:46.679+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.124 seconds
+[2025-03-04T15:19:17.087+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:19:17.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:19:17.095+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:19:17.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:19:18.117+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:19:18.110+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:19:18.120+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:19:18.144+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.066 seconds
+[2025-03-04T15:19:48.611+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:19:48.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:19:48.617+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:19:48.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:19:49.429+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:19:49.422+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:19:49.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:19:49.454+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.853 seconds
+[2025-03-04T15:20:20.028+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:20:20.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:20:20.036+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:20:20.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:20:20.954+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:20:20.945+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:20:20.957+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:20:20.987+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.971 seconds
+[2025-03-04T15:20:51.529+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:20:51.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:20:51.535+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:20:51.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:20:52.403+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:20:52.395+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:20:52.407+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:20:52.441+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.921 seconds
+[2025-03-04T15:21:23.087+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:21:23.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:21:23.096+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:21:23.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:21:24.096+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:21:24.089+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:21:24.099+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:21:24.122+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.045 seconds
+[2025-03-04T15:21:54.795+0000] {processor.py:186} INFO - Started process (PID=335) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:21:54.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:21:54.802+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:21:54.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:21:56.020+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:21:56.008+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:21:56.024+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:21:56.069+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.284 seconds
+[2025-03-04T15:22:26.400+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:22:26.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:22:26.407+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:22:26.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:22:27.677+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:22:27.669+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:22:27.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:22:27.716+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.328 seconds
+[2025-03-04T15:22:58.138+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:22:58.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:22:58.144+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:22:58.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:22:59.359+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:22:59.351+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:22:59.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:22:59.396+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.267 seconds
+[2025-03-04T15:23:29.614+0000] {processor.py:186} INFO - Started process (PID=383) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:23:29.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:23:29.623+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:23:29.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:23:30.549+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:23:30.539+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:23:30.552+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:23:30.590+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.987 seconds
+[2025-03-04T15:24:01.583+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:24:01.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:24:01.588+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:24:01.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:24:02.707+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:24:02.690+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:24:02.710+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:24:02.760+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.187 seconds
+[2025-03-04T15:24:33.212+0000] {processor.py:186} INFO - Started process (PID=415) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:24:33.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:24:33.218+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:24:33.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:24:33.832+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:24:33.825+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:24:33.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:24:33.864+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.662 seconds
+[2025-03-04T15:25:04.379+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:25:04.381+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:25:04.385+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:25:04.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:25:05.133+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:25:05.126+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:25:05.136+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:25:05.169+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.806 seconds
+[2025-03-04T15:25:35.664+0000] {processor.py:186} INFO - Started process (PID=447) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:25:35.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:25:35.671+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:25:35.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:25:36.311+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:25:36.303+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:25:36.315+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:25:36.345+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.690 seconds
+[2025-03-04T15:26:06.853+0000] {processor.py:186} INFO - Started process (PID=463) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:26:06.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:26:06.858+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:26:06.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:26:07.530+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:26:07.523+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:26:07.533+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:26:07.565+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.721 seconds
+[2025-03-04T15:26:38.269+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:26:38.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:26:38.283+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:26:38.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:26:39.058+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:26:39.050+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:26:39.061+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:26:39.089+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.830 seconds
+[2025-03-04T15:27:09.650+0000] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:27:09.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:27:09.655+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:27:09.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:27:10.373+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:27:10.366+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:27:10.376+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:27:10.416+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.773 seconds
+[2025-03-04T15:27:41.043+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:27:41.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:27:41.049+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:27:41.048+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:27:41.735+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:27:41.727+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:27:41.739+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:27:41.776+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.743 seconds
+[2025-03-04T15:28:12.366+0000] {processor.py:186} INFO - Started process (PID=527) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:28:12.369+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:28:12.374+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:28:12.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:28:13.052+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:28:13.044+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:28:13.055+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:28:13.086+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.729 seconds
+[2025-03-04T15:28:43.566+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:28:43.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:28:43.572+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:28:43.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:28:44.179+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:28:44.173+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:28:44.182+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:28:44.207+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.649 seconds
+[2025-03-04T15:29:15.039+0000] {processor.py:186} INFO - Started process (PID=559) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:29:15.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:29:15.044+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:29:15.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:29:15.776+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:29:15.766+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:29:15.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:29:15.808+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.777 seconds
+[2025-03-04T15:29:46.483+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:29:46.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:29:46.489+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:29:46.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:29:47.099+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:29:47.090+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:29:47.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:29:47.129+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.655 seconds
+[2025-03-04T15:30:17.626+0000] {processor.py:186} INFO - Started process (PID=594) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:30:17.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:30:17.631+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:30:17.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:30:18.311+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:30:18.304+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:30:18.314+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:30:18.341+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.728 seconds
+[2025-03-04T15:30:48.986+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:30:48.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:30:48.991+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:30:48.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:30:49.589+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:30:49.582+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:30:49.592+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:30:49.627+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.650 seconds
+[2025-03-04T15:31:20.450+0000] {processor.py:186} INFO - Started process (PID=633) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:31:20.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:31:20.456+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:31:20.455+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:31:21.173+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:31:21.163+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:31:21.177+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:31:21.208+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.768 seconds
+[2025-03-04T15:31:51.807+0000] {processor.py:186} INFO - Started process (PID=649) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:31:51.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:31:51.813+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:31:51.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:31:52.494+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:31:52.487+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:31:52.497+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:31:52.527+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.731 seconds
+[2025-03-04T15:32:22.996+0000] {processor.py:186} INFO - Started process (PID=665) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:32:22.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:32:23.002+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:32:23.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:32:23.688+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:32:23.680+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:32:23.691+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:32:23.720+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.733 seconds
+[2025-03-04T15:32:54.231+0000] {processor.py:186} INFO - Started process (PID=681) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:32:54.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:32:54.235+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:32:54.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:32:54.843+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:32:54.834+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:32:54.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:32:54.872+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.649 seconds
+[2025-03-04T15:33:25.857+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:33:25.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:33:25.863+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:33:25.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:33:26.551+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:33:26.543+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:33:26.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:33:26.587+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.739 seconds
+[2025-03-04T15:33:57.121+0000] {processor.py:186} INFO - Started process (PID=713) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:33:57.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:33:57.158+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:33:57.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:33:58.261+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:33:58.254+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:33:58.264+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:33:58.296+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.193 seconds
+[2025-03-04T15:34:28.919+0000] {processor.py:186} INFO - Started process (PID=729) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:34:28.926+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:34:28.953+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:34:28.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:34:30.324+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:34:30.311+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:34:30.331+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:34:30.389+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.518 seconds
+[2025-03-04T15:35:01.023+0000] {processor.py:186} INFO - Started process (PID=745) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:35:01.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:35:01.031+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:35:01.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:35:02.201+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:35:02.181+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:35:02.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:35:02.247+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.233 seconds
+[2025-03-04T15:35:32.534+0000] {processor.py:186} INFO - Started process (PID=761) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:35:32.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:35:32.539+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:35:32.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:35:33.260+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:35:33.247+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:35:33.264+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:35:33.311+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.787 seconds
+[2025-03-04T15:36:03.835+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:36:03.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:36:03.840+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:36:03.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:36:04.861+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:36:04.853+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:36:04.868+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:36:04.901+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.076 seconds
+[2025-03-04T15:36:35.397+0000] {processor.py:186} INFO - Started process (PID=793) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:36:35.399+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:36:35.403+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:36:35.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:36:35.983+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:36:35.976+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:36:35.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:36:36.011+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.623 seconds
+[2025-03-04T15:37:06.113+0000] {processor.py:186} INFO - Started process (PID=809) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:37:06.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:37:06.119+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:37:06.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:37:06.852+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:37:06.845+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:37:06.855+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:37:06.889+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.784 seconds
+[2025-03-04T15:37:37.507+0000] {processor.py:186} INFO - Started process (PID=825) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:37:37.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:37:37.513+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:37:37.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:37:38.184+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:37:38.175+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:37:38.188+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:37:38.220+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.722 seconds
+[2025-03-04T15:38:08.980+0000] {processor.py:186} INFO - Started process (PID=841) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:38:08.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:38:08.987+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:38:08.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:38:09.737+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:38:09.728+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:38:09.740+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:38:09.782+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.814 seconds
+[2025-03-04T15:38:40.395+0000] {processor.py:186} INFO - Started process (PID=857) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:38:40.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:38:40.401+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:38:40.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:38:41.026+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:38:41.018+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:38:41.030+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:38:41.062+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.676 seconds
+[2025-03-04T15:40:51.940+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:40:51.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:40:51.955+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:40:51.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:40:54.338+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:40:54.328+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:40:54.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:40:54.430+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 2.522 seconds
+[2025-03-04T15:41:25.065+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:41:25.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:41:25.073+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:41:25.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:41:26.598+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:41:26.589+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:41:26.601+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:41:26.636+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.580 seconds
+[2025-03-04T15:41:57.260+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:41:57.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:41:57.307+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:41:57.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:41:58.659+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:41:58.649+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:41:58.662+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:41:58.699+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.445 seconds
+[2025-03-04T15:42:28.891+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:42:28.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:42:28.896+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:42:28.895+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:42:30.123+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:42:30.114+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:42:30.126+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:42:30.160+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.277 seconds
+[2025-03-04T15:43:00.407+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:43:00.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:43:00.413+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:43:00.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:43:01.557+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:43:01.536+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:43:01.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:43:01.591+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.195 seconds
+[2025-03-04T15:43:31.804+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:43:31.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:43:31.814+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:43:31.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:43:32.761+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:43:32.754+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:43:32.763+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:43:32.799+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.010 seconds
+[2025-03-04T15:44:03.311+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:44:03.316+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:44:03.320+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:44:03.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:44:04.884+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:44:04.873+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:44:04.887+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:44:04.919+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.619 seconds
+[2025-03-04T15:44:35.916+0000] {processor.py:186} INFO - Started process (PID=287) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:44:35.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:44:35.922+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:44:35.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:44:36.869+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:44:36.861+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:44:36.872+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:44:36.907+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.999 seconds
+[2025-03-04T15:45:07.540+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:07.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:45:07.546+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:45:07.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:08.527+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:45:08.521+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/airflow_module/dags/data_modules/data_load.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/airflow_module/dags/data_modules/data_load.py", line 5, in <module>
+    from airflow_module.dags.data_modules.db_connection import postgre_connection
+ModuleNotFoundError: No module named 'airflow_module'
+[2025-03-04T15:45:08.530+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:08.562+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 1.032 seconds
+[2025-03-04T15:45:10.646+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:10.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:45:10.651+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:45:10.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:10.667+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:45:10.666+0000] {dagbag.py:366} INFO - File /opt/airflow/airflow_module/dags/data_modules/data_load.py assumed to contain no DAGs. Skipping.
+[2025-03-04T15:45:10.668+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:10.690+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.052 seconds
+[2025-03-04T15:45:41.090+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:41.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_modules/data_load.py for tasks to queue
+[2025-03-04T15:45:41.096+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:45:41.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:41.110+0000] {logging_mixin.py:190} INFO - [2025-03-04T15:45:41.109+0000] {dagbag.py:366} INFO - File /opt/airflow/airflow_module/dags/data_modules/data_load.py assumed to contain no DAGs. Skipping.
+[2025-03-04T15:45:41.111+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/airflow_module/dags/data_modules/data_load.py
+[2025-03-04T15:45:41.146+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_modules/data_load.py took 0.067 seconds

@@ -1,0 +1,38 @@
+[2025-03-06T00:00:29.879+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-06T00:00:29.912+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Load_data_to_elastic_search_rag.loads_csv_data scheduled__2025-03-05T00:00:00+00:00 [queued]>
+[2025-03-06T00:00:29.938+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Load_data_to_elastic_search_rag.loads_csv_data scheduled__2025-03-05T00:00:00+00:00 [queued]>
+[2025-03-06T00:00:29.939+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-03-06T00:00:29.971+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): loads_csv_data> on 2025-03-05 00:00:00+00:00
+[2025-03-06T00:00:30.006+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=205) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-06T00:00:29.998+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Load_data_to_elastic_search_rag', 'loads_csv_data', 'scheduled__2025-03-05T00:00:00+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline.py', '--cfg-path', '/tmp/tmpvrz4mcv0']
+[2025-03-06T00:00:30.011+0000] {standard_task_runner.py:105} INFO - Job 37: Subtask loads_csv_data
+[2025-03-06T00:00:30.011+0000] {standard_task_runner.py:72} INFO - Started process 207 to run task
+[2025-03-06T00:00:30.125+0000] {task_command.py:467} INFO - Running <TaskInstance: Load_data_to_elastic_search_rag.loads_csv_data scheduled__2025-03-05T00:00:00+00:00 [running]> on host 67763114dcf0
+[2025-03-06T00:00:30.433+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Artur Tiburski' AIRFLOW_CTX_DAG_ID='Load_data_to_elastic_search_rag' AIRFLOW_CTX_TASK_ID='loads_csv_data' AIRFLOW_CTX_EXECUTION_DATE='2025-03-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-05T00:00:00+00:00'
+[2025-03-06T00:00:30.436+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-06T00:00:30.626+0000] {logging_mixin.py:190} INFO - Dados Inseridos com Sucesso.
+[2025-03-06T00:00:30.629+0000] {python.py:240} INFO - Done. Returned value was: Data from CSV inserted succesfully
+[2025-03-06T00:00:30.676+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-06T00:00:30.677+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Load_data_to_elastic_search_rag, task_id=loads_csv_data, run_id=scheduled__2025-03-05T00:00:00+00:00, execution_date=20250305T000000, start_date=20250306T000029, end_date=20250306T000030
+[2025-03-06T00:00:30.754+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-06T00:00:30.822+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-06T00:00:30.825+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-03-06T00:25:53.626+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-06T00:25:53.680+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Load_data_to_elastic_search_rag.loads_csv_data scheduled__2025-03-05T00:00:00+00:00 [queued]>
+[2025-03-06T00:25:53.706+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Load_data_to_elastic_search_rag.loads_csv_data scheduled__2025-03-05T00:00:00+00:00 [queued]>
+[2025-03-06T00:25:53.707+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-03-06T00:25:53.734+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): loads_csv_data> on 2025-03-05 00:00:00+00:00
+[2025-03-06T00:25:53.759+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Load_data_to_elastic_search_rag', 'loads_csv_data', 'scheduled__2025-03-05T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline.py', '--cfg-path', '/tmp/tmpde0tv9ix']
+[2025-03-06T00:25:53.766+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask loads_csv_data
+[2025-03-06T00:25:53.770+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=187) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-06T00:25:53.772+0000] {standard_task_runner.py:72} INFO - Started process 189 to run task
+[2025-03-06T00:25:53.978+0000] {task_command.py:467} INFO - Running <TaskInstance: Load_data_to_elastic_search_rag.loads_csv_data scheduled__2025-03-05T00:00:00+00:00 [running]> on host 7099716331ac
+[2025-03-06T00:25:54.217+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Artur Tiburski' AIRFLOW_CTX_DAG_ID='Load_data_to_elastic_search_rag' AIRFLOW_CTX_TASK_ID='loads_csv_data' AIRFLOW_CTX_EXECUTION_DATE='2025-03-05T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-05T00:00:00+00:00'
+[2025-03-06T00:25:54.219+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-06T00:25:54.412+0000] {logging_mixin.py:190} INFO - Dados Inseridos com Sucesso.
+[2025-03-06T00:25:54.415+0000] {python.py:240} INFO - Done. Returned value was: Data from CSV inserted succesfully
+[2025-03-06T00:25:54.465+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-06T00:25:54.466+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Load_data_to_elastic_search_rag, task_id=loads_csv_data, run_id=scheduled__2025-03-05T00:00:00+00:00, execution_date=20250305T000000, start_date=20250306T002553, end_date=20250306T002554
+[2025-03-06T00:25:54.519+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-06T00:25:54.557+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-06T00:25:54.569+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

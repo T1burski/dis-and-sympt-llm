@@ -1,0 +1,20 @@
+[2025-03-05T05:57:21.064+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-05T05:57:21.117+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Load_data_to_elastic_search_rag.create_table_postgres scheduled__2025-03-04T00:00:00+00:00 [queued]>
+[2025-03-05T05:57:21.150+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Load_data_to_elastic_search_rag.create_table_postgres scheduled__2025-03-04T00:00:00+00:00 [queued]>
+[2025-03-05T05:57:21.154+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-03-05T05:57:21.203+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): create_table_postgres> on 2025-03-04 00:00:00+00:00
+[2025-03-05T05:57:21.250+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'Load_data_to_elastic_search_rag', 'create_table_postgres', 'scheduled__2025-03-04T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/data_pipeline.py', '--cfg-path', '/tmp/tmprit_w28r']
+[2025-03-05T05:57:21.267+0000] {standard_task_runner.py:105} INFO - Job 28: Subtask create_table_postgres
+[2025-03-05T05:57:21.279+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1353) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-05T05:57:21.284+0000] {standard_task_runner.py:72} INFO - Started process 1359 to run task
+[2025-03-05T05:57:21.501+0000] {task_command.py:467} INFO - Running <TaskInstance: Load_data_to_elastic_search_rag.create_table_postgres scheduled__2025-03-04T00:00:00+00:00 [running]> on host a6ec32231613
+[2025-03-05T05:57:21.839+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Artur Tiburski' AIRFLOW_CTX_DAG_ID='Load_data_to_elastic_search_rag' AIRFLOW_CTX_TASK_ID='create_table_postgres' AIRFLOW_CTX_EXECUTION_DATE='2025-03-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-04T00:00:00+00:00'
+[2025-03-05T05:57:21.842+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-05T05:57:21.984+0000] {logging_mixin.py:190} INFO - relation "all_documents" already exists
+[2025-03-05T05:57:21.986+0000] {logging_mixin.py:190} INFO - current transaction is aborted, commands ignored until end of transaction block
+[2025-03-05T05:57:21.988+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-05T05:57:22.016+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-05T05:57:22.017+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Load_data_to_elastic_search_rag, task_id=create_table_postgres, run_id=scheduled__2025-03-04T00:00:00+00:00, execution_date=20250304T000000, start_date=20250305T055721, end_date=20250305T055722
+[2025-03-05T05:57:22.088+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-05T05:57:22.173+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-05T05:57:22.187+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
