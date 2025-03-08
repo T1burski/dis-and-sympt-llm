@@ -1002,3 +1002,142 @@
 [2025-03-08T12:16:34.920+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:16:34.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-08T12:16:34.956+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:16:34.956+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
 [2025-03-08T12:16:35.001+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.008 seconds
+[2025-03-08T12:25:29.161+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:25:29.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:25:29.183+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:25:29.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:25:37.283+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:25:37.419+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:25:37.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:25:37.501+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:25:37.500+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:25:37.548+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 8.418 seconds
+[2025-03-08T12:26:07.948+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:26:07.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:26:07.958+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:26:07.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:26:10.987+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:26:11.059+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:26:11.056+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:26:11.132+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:26:11.131+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:26:11.190+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 3.268 seconds
+[2025-03-08T12:26:41.543+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:26:41.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:26:41.551+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:26:41.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:26:43.092+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:26:43.135+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:26:43.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:26:43.184+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:26:43.184+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:26:43.228+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.697 seconds
+[2025-03-08T12:27:13.537+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:27:13.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:27:13.543+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:27:13.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:27:15.203+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:27:15.264+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:27:15.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:27:15.388+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:27:15.388+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:27:15.542+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 2.015 seconds
+[2025-03-08T12:27:45.953+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:27:45.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:27:45.961+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:27:45.960+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:27:47.074+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:27:47.113+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:27:47.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:27:47.151+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:27:47.151+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:27:47.185+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.240 seconds
+[2025-03-08T12:28:17.521+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:28:17.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:28:17.536+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:28:17.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:28:18.772+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:28:18.808+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:28:18.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:28:18.844+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:28:18.844+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:28:18.932+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.424 seconds
+[2025-03-08T12:28:49.306+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:28:49.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:28:49.313+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:28:49.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:28:50.610+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:28:50.655+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:28:50.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:28:50.709+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:28:50.709+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:28:50.751+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.456 seconds
+[2025-03-08T12:29:21.126+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:29:21.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:29:21.131+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:29:21.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:29:22.223+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:29:22.257+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:29:22.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:29:22.296+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:29:22.296+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:29:22.333+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.226 seconds
+[2025-03-08T12:29:52.674+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:29:52.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:29:52.680+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:29:52.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:29:53.788+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:29:53.830+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:29:53.830+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:29:53.862+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:29:53.862+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:29:53.895+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.234 seconds
+[2025-03-08T12:30:23.985+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:30:23.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:30:23.998+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:30:23.997+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:30:25.980+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:30:26.044+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:30:26.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:30:26.143+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:30:26.142+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:30:26.179+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 2.209 seconds
+[2025-03-08T12:30:56.506+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:30:56.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:30:56.521+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:30:56.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:30:58.792+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:30:59.655+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:30:59.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:30:59.901+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 3.414 seconds
+[2025-03-08T12:31:30.440+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:31:30.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:31:30.448+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:31:30.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:31:32.287+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:31:32.339+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:31:32.338+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:31:32.385+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:31:32.385+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:31:32.427+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 2.005 seconds
+[2025-03-08T12:32:02.767+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:32:02.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:32:02.774+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:32:02.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:32:04.308+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:32:04.347+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:32:04.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:32:04.396+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:32:04.395+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:32:04.453+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.700 seconds
+[2025-03-08T12:32:34.863+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:32:34.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:32:34.872+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:32:34.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:32:36.032+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:32:36.077+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:32:36.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:32:36.127+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:32:36.127+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:32:36.191+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.337 seconds
+[2025-03-08T12:33:06.370+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:33:06.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:33:06.380+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:33:06.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:33:07.338+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:33:07.375+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:33:07.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:33:07.419+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:33:07.419+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:33:07.450+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.089 seconds
+[2025-03-08T12:33:37.683+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:33:37.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:33:37.689+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:33:37.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:33:38.628+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:33:38.661+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:33:38.660+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:33:38.695+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:33:38.694+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:33:38.735+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.061 seconds
+[2025-03-08T12:34:09.076+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:34:09.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:34:09.082+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:34:09.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:34:10.101+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:34:10.139+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:34:10.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:34:10.173+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:34:10.173+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:34:10.205+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.148 seconds
+[2025-03-08T12:34:40.432+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:34:40.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:34:40.437+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:34:40.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:34:41.369+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:34:41.400+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:34:41.399+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:34:41.438+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:34:41.437+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:34:41.466+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.042 seconds
+[2025-03-08T12:35:11.797+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:35:11.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:35:11.814+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:35:11.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:35:13.287+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:35:13.324+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:35:13.323+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:35:13.383+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:35:13.383+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:35:13.452+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.723 seconds
+[2025-03-08T12:35:43.974+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:35:43.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/airflow_module/dags/data_pipeline.py for tasks to queue
+[2025-03-08T12:35:43.981+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:35:43.980+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:35:44.911+0000] {processor.py:925} INFO - DAG(s) 'Load_data_to_elastic_search_rag' retrieved from /opt/airflow/airflow_module/dags/data_pipeline.py
+[2025-03-08T12:35:44.948+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:35:44.947+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-08T12:35:44.979+0000] {logging_mixin.py:190} INFO - [2025-03-08T12:35:44.979+0000] {dag.py:4180} INFO - Setting next_dagrun for Load_data_to_elastic_search_rag to 2025-03-08 00:00:00+00:00, run_after=2025-03-09 00:00:00+00:00
+[2025-03-08T12:35:45.008+0000] {processor.py:208} INFO - Processing /opt/airflow/airflow_module/dags/data_pipeline.py took 1.044 seconds
