@@ -214,6 +214,4 @@ networks:
 volumes:
   pgvolume:
   postgres-db-volume:
-  grafana-storage:
-  grafana-plugins:
   elastic-search-data:
