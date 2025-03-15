@@ -1,1 +1,1 @@
-# Diseases and Symptoms: An AI Medical Orientation
+# Diseases and Symptoms: An AI Medical Orientation System
