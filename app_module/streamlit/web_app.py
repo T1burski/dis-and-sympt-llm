@@ -99,7 +99,7 @@ def main():
         st.markdown(st.session_state.result)
 
         if not st.session_state.feedbackSubmitted:
-            st.write("Were you satisfied in the quality of the answer?")
+            st.write("Were you satisfied with the quality of the answer?")
             feedback_col1, feedback_col2 = st.columns(2)
             with feedback_col1:
                 if st.button("Satisfied"):
