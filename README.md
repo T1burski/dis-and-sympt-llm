@@ -1,1 +1,1 @@
-# dis-and-sympt-llm
+# Diseases and Symptoms: An AI Medical Orientation
