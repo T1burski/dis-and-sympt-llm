@@ -21,6 +21,21 @@ Provides the Elastic Search database with the indexed data that feeds the RAG co
 Provides the streamlit webapp, building the front-end and the connection between the system and the LLM API using HuggingFace. Image was built on customized Dockerfile.
 
 The PostgreSQL database that is part of airflow was used, for simplicity reasons, to store data such as the context data (the data that was loaded to Elastic Search) and two other tables: one that stores the performance metrics of the RAG system (response time, hit_rate_score and mmr_score) and one that stores user feedbacks.
-
 Modularization was applied to make the project organized, facilitating maintenance.
 
+### 3) AI: The LLM and RAG Approaches:
+The LLM used was the Mistral AI's Mistral-7B-Instruct-v0.2. And for the storage of the context data used in the RAG approach, Elastic Search database was used, as mentioned before.
+
+LLM specs: Since we are dealing with a sensible theme (people's health and lives) two important parameters were set: We want lengthy responses, so the LLM can have the necessary space to develop the critical answer and not leave any space for ambiguity, therefore, we set max_new_tokens to 1500. The theme here is sensible and there is no space for creativity and pretty storytelling: temperature param is set to a low value, 0.2.
+
+RAG specs: There are three fields in the context data:
+
+### i) Name of the Disease
+### ii) Symptoms
+### iii) Treatment
+
+The user will add in the query text related to the symptoms, and the LLM needs to output potential diseases names and their respective treatments. Therefore, the RAG system searches the Elastic Search database for the symptoms (given in the user's query) and returns the top 4 ("size" was set to 4 here) records from the database which will feed the context. 
+
+In order to track the performance of the RAG system, two common metrics were used:
+
+### Hit Rate:
