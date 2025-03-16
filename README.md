@@ -89,7 +89,7 @@ Everytime the user Asks something and gives a feedback, all the generated data i
 ![image](https://github.com/user-attachments/assets/e821ee11-85ef-4ce4-b905-99afcdbb8d72)
 
 
-### 5) Conclusions, Running the Project & Improvements for the Future:
+### 5) Conclusions & Running the Project:
 The main focus of this project was to practice and showcase the usage of a popular and efficient AI Stack: LLM (through HuggingFace API) + RAG (through Elastic Search index database) system to solve a complex problem that interacts with direct users, in this case patients that are under a medical complication. along with this development, ways to measure the RAG's efficiency and the users' feedbacks were also implemented.
 
 Running the project: simply clone this repository and build the images and containers using docker-compose up. Run the DAG to start up the Elastic Search database and PostgreSQL tables and then open the Web App locally. BAM, you can have your own medical AI assistant!
