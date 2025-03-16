@@ -57,6 +57,7 @@ In order to build the payload sent to the LLM API (HuggingFace), the following s
 ### full_payload = instructions + Context + Question
 
 Where:
+
 -- instructions contains a fixed strategy for the LLM to behave ("The Question has symptoms of a patient and you are meant to answer both the disease and the treatments for it using simple direct english like a medical expert based on the Context given.")
 
 -- Context contains the outputs of the RAG system.
